@@ -1,0 +1,8 @@
+// Текстовые стили, размеры шрифтов и тд
+body {
+  @include defaultFont(14px, 400, normal, 1, 0.01em);
+}
+
+a {
+  text-decoration: none;
+}
